@@ -1,0 +1,176 @@
+/**
+ * FILE: jquery.ptTileSelect.css
+ * 	Default style for the timeselect container.
+ * 
+ *  LAST UPDATED:
+ * 
+ * 		- $Date: 2009/04/12 20:23:02 $
+ * 		- $Author: paulinho4u $
+ * 		- $Revision: 1.1 $
+ */
+#ptTimeSelectCntr {
+    width: 250px;
+    font-size: .9em;
+    position: absolute;
+    z-index: 10;
+    display: none;
+}
+
+#ptTimeSelectCntr .ui-widget {
+    padding: .2em;
+}
+
+#ptTimeSelectCntr .ui-widget-header {
+    /*padding: .2em;*/
+}
+
+#ptTimeSelectCntr #ptTimeSelectUserTime {
+    font-size: 14px; /*larger;*/
+    padding: .2em;
+    padding-left: 1em;
+    text-align: center;
+}
+
+#ptTimeSelectCntr #ptTimeSelectCloseCntr {
+    display: block;
+    /*padding: .2em;*/
+}
+
+#ptTimeSelectCntr #ptTimeSelectCloseCntr a {
+    display: block;
+    padding: .2em;
+}
+
+#ptTimeSelectCntr .ui-widget-content {
+    margin-top: .1em;
+    margin-bottom: .1em;
+    padding: .2em;
+}
+
+#ptTimeSelectCntr .ui-widget.ui-widget-content {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#ptTimeSelectCntr .ptTimeSelectLeftPane.ui-widget-content {
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right-width: 4px; /*2px;*/
+    border-right-color: #ffffff;
+}
+
+#ptTimeSelectCntr .ptTimeSelectRightPane.ui-widget-content {
+    border: none;
+}
+
+#ptTimeSelectCntr .ptTimeSelectHrCntr a,
+#ptTimeSelectCntr .ptTimeSelectMinCntr a {
+    display: block;
+    float: left;
+    padding: .2em;
+    width: 1.9em;
+    margin: 1px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#ptTimeSelectCntr .ptTimeSelectHrAmPmCntr a {
+    text-align: center;
+    margin: 1px;
+}
+
+#ptTimeSelectCntr .ptTimeSelectTimeLabelsCntr {
+    font-weight: bold;
+    font-size: 13px; /*.9em;*/
+}
+
+#ptTimeSelectCntr #ptTimeSelectSetButton {
+    padding-top: .2em;
+    /*padding-bottom: .2em;*/
+}
+
+#ptTimeSelectCntr #ptTimeSelectSetButton a {
+    display: block;
+    padding: .2em;
+    width: 30%;
+    text-align: center;
+    float: right;
+}
+
+#ptTimeSelectCntr .ui-widget-header {
+    /*border: 1px solid #c8c8c8;
+    background-color: #e6e6e6;
+    color: #767676;*/
+    border: 0 none;
+    background-color: transparent;
+    color: #333;
+    font-size: 13px;
+}
+
+#ptTimeSelectCntr .ui-widget-content {
+    border: 1px solid rgba(0, 0, 0, .15);
+    background-color: #ffffff;
+    color: #333;
+}
+
+#ptTimeSelectCntr .ui-icon {
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+    text-indent: 3px;
+}
+
+#ptTimeSelectCntr .ui-state-hover,
+#ptTimeSelectCntr .ui-widget-content .ui-state-hover,
+#ptTimeSelectCntr .ui-widget-header .ui-state-hover,
+#ptTimeSelectCntr .ui-state-focus,
+#ptTimeSelectCntr .ui-widget-content .ui-state-focus,
+#ptTimeSelectCntr .ui-widget-header .ui-state-focus {
+    border: 1px solid #b7b7b7;
+    background-color: #f6f6f6;
+    color: #333;
+    text-decoration: none;
+}
+
+#ptTimeSelectCntr .ui-state-default,
+#ptTimeSelectCntr .ui-widget-content .ui-state-default,
+#ptTimeSelectCntr .ui-widget-header .ui-state-default {
+    border: 0 none;
+    background: transparent;
+    color: #333;
+    font-weight: normal;
+}
+
+#ptTimeSelectCntr .ui-widget {
+    font-family: inherit;
+}
+
+#ptTimeSelectCntr #ptTimeSelectSetButton a.ui-state-default,
+#ptTimeSelectCntr #ptTimeSelectCloseCntr a.ui-state-default {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .15);
+    font-weight: bold;
+}
+
+#ptTimeSelectCntr .ptTimeSelectHr.ui-state-default:hover,
+#ptTimeSelectCntr .ptTimeSelectMin.ui-state-default:hover {
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #08c, #04c);
+    background-image: -ms-linear-gradient(top, #08c, #04c);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#04c));
+    background-image: -webkit-linear-gradient(top, #08c, #04c);
+    background-image: -o-linear-gradient(top, #08c, #04c);
+    background-image: linear-gradient(top, #08c, #04c);
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+    /*border-color: #04c #04c #002a80;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);*/
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .25)
+}
+
+#ptTimeSelectCntr {
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175)
+}
